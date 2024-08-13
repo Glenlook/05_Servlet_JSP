@@ -20,18 +20,18 @@
 
   <hr>
 
-    <h4>할 일 추가</h4>
-    <form action="/todo/add" method="post" id="addForm">
-      <div>
-        제목 : <input type="text" name="title">
-      </div>
-      <div>
-        <textarea name="detail" 
-          rows="3" cols="50" placeholder="상세 내용"></textarea>
-      </div>
+  <h4>할 일 추가</h4>
+  <form action="/todo/add" method="post" id="addForm">
+    <div>
+      제목 : <input type="text" name="title">
+    </div>
+    <div>
+      <textarea name="detail" 
+        rows="3" cols="50" placeholder="상세 내용"></textarea>
+    </div>
 
-      <button>추가</button>
-    </form>
+    <button>추가</button>
+  </form>
 
   <hr>
 
